@@ -23,6 +23,12 @@ string vienod(string zodis){
 void skt(map<string, int> daznis, map<string, set<int>> kur, set<string> url){
     
     std::ifstream F("text.txt");
+    if(!F){
+        std::cout<<"Failo atidaryti neapvyko";
+        return;
+    }
+
+    
     string eil;
     int eilsk=0;
 
@@ -39,7 +45,7 @@ void skt(map<string, int> daznis, map<string, set<int>> kur, set<string> url){
             zodis=vienod(zodis);
             if(zodis.empty())
                 continue;
-                
+
             daznis[zodis]++;
             kur[zodis].insert(eilsk);
         }
