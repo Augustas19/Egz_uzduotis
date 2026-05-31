@@ -1,0 +1,143 @@
+1579 - 1 22 
+20 - 1 7 
+a - 5 21 22 23 
+alyta - 5 21 
+alytus - 5 21 
+amiaus - 21 22 
+antavili - 16 19 
+apie - 5 21 22 
+atodanga - 10 
+atstovybs - 1 
+auga - 19 
+augaviet - 20 
+auktum - 10 
+auktumos - 10 
+baltijos - 7 10 
+bei - 16 22 
+bendriniu - 4 21 
+bendrinje - 4 21 
+buvo - 23 24 25 
+centras - 1 24 
+centru - 22 
+dalis - 10 16 23 
+daugiausia - 10 19 
+didysis - 22 
+eer - 16 
+eerai - 16 
+eeras - 16 
+forma - 5 21 
+formos - 5 21 
+gubernijos - 24 
+i - 5 14 
+iaurje - 10 16 19 
+iaurs - 10 16 17 19 22 23 
+iki - 22 24 
+ilikusi - 5 21 
+inoma - 5 21 
+intakas - 10 14 
+ir - 1 5 7 10 16 19 20 21 22 23 24 
+kad - 5 
+kaip - 5 21 22 24 
+kalboje - 4 5 21 
+kalbos - 5 21 
+kalvynas - 12 
+karalius - 22 
+karo - 23 24 
+kart - 22 23 
+keletas - 14 16 
+km - 7 10 
+kt - 16 19 20 
+kunigaiktis - 22 
+kur - 16 19 
+kuri - 5 21 
+kurios - 10 22 
+kyla - 10 
+labai - 14 22 
+leidiasi - 10 
+lenkijos - 22 
+liepa - 20 
+lietuvoje - 7 22 
+lietuvos - 1 5 19 21 22 25 
+lotyn - 5 21 
+m - 1 2 5 11 22 23 24 25 
+metu - 23 
+miest - 14 22 23 25 
+miestas - 1 5 14 23 
+mieste - 16 21 22 
+miesto - 1 5 8 10 11 14 19 21 22 23 
+mik - 19 
+mikai - 8 19 
+mikas - 19 
+model - 5 21 
+ner - 14 
+neries - 7 10 11 14 
+nuo - 1 5 7 21 22 24 
+o - 5 11 14 19 
+odiu - 4 21 
+padaryta - 5 21 
+pagal - 5 21 
+pakraiais - 10 14 
+pakratyje - 16 17 
+pakratys - 10 19 
+paneri - 12 19 
+parkas - 19 
+parko - 20 
+pat - 4 5 10 21 22 
+pats - 5 22 
+pavilni - 19 20 
+pavirius - 9 10 11 
+pietin - 14 19 
+pilaits - 16 19 
+pirm - 22 23 
+plyti - 10 17 
+po - 23 24 
+prie - 10 16 
+pus - 19 
+ratas - 20 
+ries - 10 16 
+rokantiki - 11 16 
+rusijos - 23 24 
+ryt - 5 14 21 
+rytin - 10 16 19 
+sapieg - 19 20 
+savivaldybs - 1 
+senoji - 5 21 
+sietinas - 4 21 
+sigaljo - 5 21 
+sigaljs - 4 21 
+sostin - 1 24 25 
+su - 4 14 21 
+sudaro - 8 10 
+t - 5 21 
+taiau - 15 24 
+taip - 4 5 10 22 
+tapo - 22 
+tarmse - 5 21 
+teka - 14 
+telko - 16 
+ties - 10 15 
+tvenkinys - 16 
+um - 23 25 
+universitet - 22 24 
+universitetas - 22 25 
+up - 4 5 14 
+ups - 5 10 21 22 
+upvardis - 4 21 
+vardas - 5 21 
+vardo - 5 21 
+variantas - 4 21 
+verki - 16 19 20 
+vilna - 5 21 
+vilni - 22 23 25 
+vilnia - 4 5 10 14 21 
+vilniaus - 1 2 5 17 19 21 22 23 24 25 
+vilnios - 4 7 21 
+vilnis - 4 21 
+vilniuje - 19 25 
+vilnius - 1 4 5 21 22 24 
+vingio - 15 19 20 
+vliau - 22 25 
+vyrauja - 19 
+vyrika - 5 
+xv - 5 21 
+yra - 1 4 5 7 10 11 12 15 16 19 20 21 
