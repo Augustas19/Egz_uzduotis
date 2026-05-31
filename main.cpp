@@ -6,26 +6,12 @@
 #include <sstream>
 #include <regex>
 #include <algorithm>
-#include <locale>
-#include <cwctype>
-
 
 using std::getline;
-using std::wstring;
 using std::string;
 using std::map;
 using std::set;
 using std::regex;
-
-wstring vienod(string zodis){
-    wstring rez;
-    for(wchar_t x : zodis){
-        if(isalnum(x)){
-            rez += tolower(x);
-        }
-    }
-    return rez;
-}
 
 set<string> TLD(const string& failas){
     set<string> a;
@@ -39,7 +25,6 @@ set<string> TLD(const string& failas){
         while (!eil.empty() && (eil.back() == '\r' || eil.back() == ' ')){
             eil.pop_back();
         }
-        //if(eil.empty()||eil[0]=='#')continue;
         std::transform(eil.begin(), eil.end(), eil.begin(),
                [](unsigned char c){ return std::tolower(c); });
         a.insert(eil);
@@ -58,7 +43,7 @@ bool valid(const string& domain, const set<string>& tinkamas){
     return tinkamas.count(tld)>0;
 }
 
-void skt(map<wstring, int>& daznis, map<wstring, set<int>>& kur, set<string>& url, const set<string>& visidom){
+void skt(map<string, int>& daznis, map<string, set<int>>& kur, set<string>& url, const set<string>& visidom){
     
     std::ifstream F("text.txt");
     if(!F){
@@ -66,7 +51,6 @@ void skt(map<wstring, int>& daznis, map<wstring, set<int>>& kur, set<string>& ur
         return;
     }
 
-    
     string eil;
     int eilsk=0;
 
@@ -100,21 +84,18 @@ void skt(map<wstring, int>& daznis, map<wstring, set<int>>& kur, set<string>& ur
 
         // zodziai
         regex zodisRe(R"([A-Za-zĄČĘĖĮŠŲŪŽąčęėįšųūž]+)");
-        string zodis;
-        std::stringstream s(eil);
-        while(s>>zodis){
-            
-            /*zodis=vienod(zodis);
-            if(zodis.empty())
-                continue;
-
+        std::sregex_iterator it2(eil.begin(), eil.end(), zodisRe);
+        std::sregex_iterator end2;
+        for(; it2!=end2; ++it2){
+            string zodis = it2->str();
+            std::transform(zodis.begin(), zodis.end(), zodis.begin(),::tolower);
             daznis[zodis]++;
-            kur[zodis].insert(eilsk);*/
+            kur[zodis].insert(eilsk);
         }
     }
     F.close();
 }
-void rasymasdazn(const map<wstring, int>& daznis){
+void rasymasdazn(const map<string, int>& daznis){
     std::ofstream r("zodziai1.txt");
     for(const auto& x : daznis){
         if(x.second > 1){
@@ -123,7 +104,7 @@ void rasymasdazn(const map<wstring, int>& daznis){
     }
     r.close();
 }
-void rasymascross(const map<wstring, set<int>> kur, const map<wstring, int>& daznis){
+void rasymascross(const map<string, set<int>> kur, const map<string, int>& daznis){
     std::ofstream r("cross-reference2.txt");
     for(const auto& x : kur){
         if(daznis.at(x.first)>1){
@@ -144,11 +125,10 @@ void rasymasurl(set<string>& url){
     }
     r.close();
 }
-int main(){
-std::locale::global(std::locale(""));
 
-map<wstring, int> daznis;
-map<wstring, set<int>> kur;
+int main(){
+map<string, int> daznis;
+map<string, set<int>> kur;
 set<string> url;
 
 set<string> visidom = TLD("domain.txt");

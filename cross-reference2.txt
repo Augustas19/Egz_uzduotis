@@ -1,41 +1,36 @@
-1579 - 1 22 
-20 - 1 7 
 a - 5 21 22 23 
 alyta - 5 21 
 alytus - 5 21 
-amiaus - 21 22 
-antavili - 16 19 
+amžiaus - 21 22 
+antavilių - 16 19 
 apie - 5 21 22 
 atodanga - 10 
-atstovybs - 1 
+atstovybės - 1 
 auga - 19 
-augaviet - 20 
-auktum - 10 
-auktumos - 10 
+augavietė - 20 
+aukštumos - 10 
 baltijos - 7 10 
 bei - 16 22 
 bendriniu - 4 21 
-bendrinje - 4 21 
+bendrinėje - 4 21 
 buvo - 23 24 25 
 centras - 1 24 
 centru - 22 
 dalis - 10 16 23 
 daugiausia - 10 19 
 didysis - 22 
-eer - 16 
-eerai - 16 
-eeras - 16 
+ežerai - 16 
+ežeras - 16 
+ežerų - 16 
 forma - 5 21 
 formos - 5 21 
+gimine - 5 
 gubernijos - 24 
-i - 5 14 
-iaurje - 10 16 19 
-iaurs - 10 16 17 19 22 23 
 iki - 22 24 
-ilikusi - 5 21 
-inoma - 5 21 
 intakas - 10 14 
 ir - 1 5 7 10 16 19 20 21 22 23 24 
+iš - 5 14 
+išlikusi - 5 21 
 kad - 5 
 kaip - 5 21 22 24 
 kalboje - 4 5 21 
@@ -43,101 +38,111 @@ kalbos - 5 21
 kalvynas - 12 
 karalius - 22 
 karo - 23 24 
-kart - 22 23 
+kartą - 22 23 
 keletas - 14 16 
 km - 7 10 
 kt - 16 19 20 
-kunigaiktis - 22 
+kunigaikštis - 22 
 kur - 16 19 
 kuri - 5 21 
 kurios - 10 22 
 kyla - 10 
 labai - 14 22 
-leidiasi - 10 
+leidžiasi - 10 
 lenkijos - 22 
 liepa - 20 
 lietuvoje - 7 22 
 lietuvos - 1 5 19 21 22 25 
-lotyn - 5 21 
+lotynų - 5 21 
+lt - 13 20 
 m - 1 2 5 11 22 23 24 25 
 metu - 23 
-miest - 14 22 23 25 
 miestas - 1 5 14 23 
 mieste - 16 21 22 
 miesto - 1 5 8 10 11 14 19 21 22 23 
-mik - 19 
-mikai - 8 19 
-mikas - 19 
-model - 5 21 
-ner - 14 
+miestą - 4 5 14 23 25 
+miškai - 8 19 
+miškas - 19 
+miškų - 19 
+modelį - 5 21 
 neries - 7 10 11 14 
+nerį - 14 
 nuo - 1 5 7 21 22 24 
 o - 5 11 14 19 
-odiu - 4 21 
 padaryta - 5 21 
 pagal - 5 21 
-pakraiais - 10 14 
-pakratyje - 16 17 
-pakratys - 10 19 
-paneri - 12 19 
+pakraštyje - 16 17 
+pakraštys - 10 19 
+pakraščiais - 10 14 
+panerių - 12 19 
 parkas - 19 
 parko - 20 
-pat - 4 5 10 21 22 
+pat - 4 5 10 22 
 pats - 5 22 
-pavilni - 19 20 
-pavirius - 9 10 11 
-pietin - 14 19 
-pilaits - 16 19 
-pirm - 22 23 
+patį - 5 21 
+pavilnių - 19 20 
+paviršius - 9 10 11 
+pietryčiuose - 10 19 
+pilaitės - 16 19 
+pirmą - 22 23 
 plyti - 10 17 
 po - 23 24 
 prie - 10 16 
-pus - 19 
+pusę - 19 
 ratas - 20 
-ries - 10 16 
-rokantiki - 11 16 
+riešės - 10 16 
+rokantiškių - 11 16 
 rusijos - 23 24 
-ryt - 5 14 21 
-rytin - 10 16 19 
-sapieg - 19 20 
-savivaldybs - 1 
+rytinė - 10 16 
+rytų - 5 14 21 
+sapiegų - 19 20 
+savivaldybės - 1 
 senoji - 5 21 
 sietinas - 4 21 
-sigaljo - 5 21 
-sigaljs - 4 21 
-sostin - 1 24 25 
+sostinė - 1 24 25 
 su - 4 14 21 
 sudaro - 8 10 
-t - 5 21 
-taiau - 15 24 
 taip - 4 5 10 22 
 tapo - 22 
-tarmse - 5 21 
+tarmėse - 5 21 
+tačiau - 15 24 
 teka - 14 
-telko - 16 
+telkšo - 16 
 ties - 10 15 
 tvenkinys - 16 
-um - 23 25 
-universitet - 22 24 
+tą - 5 21 
 universitetas - 22 25 
-up - 4 5 14 
-ups - 5 10 21 22 
-upvardis - 4 21 
+universitetą - 22 24 
+upė - 4 14 
+upės - 5 10 21 22 
+upėvardis - 4 21 
+užėmę - 25 
+vakarų - 22 24 
 vardas - 5 21 
 vardo - 5 21 
 variantas - 4 21 
-verki - 16 19 20 
+verkių - 16 19 20 
 vilna - 5 21 
-vilni - 22 23 25 
 vilnia - 4 5 10 14 21 
 vilniaus - 1 2 5 17 19 21 22 23 24 25 
 vilnios - 4 7 21 
 vilnis - 4 21 
 vilniuje - 19 25 
 vilnius - 1 4 5 21 22 24 
+vilnių - 22 23 25 
 vingio - 15 19 20 
-vliau - 22 25 
+vu - 13 20 
 vyrauja - 19 
-vyrika - 5 
+vyriška - 5 
+vėliau - 22 25 
+www - 13 20 
 xv - 5 21 
 yra - 1 4 5 7 10 11 12 15 16 19 20 21 
+į - 2 5 7 10 14 22 23 25 
+įsigalėjo - 5 21 
+įsigalėjęs - 4 21 
+Šiaurės - 10 17 22 23 24 
+šiaurėje - 10 16 
+šiaurės - 10 16 19 
+žinoma - 5 21 
+žodžiu - 4 21 
