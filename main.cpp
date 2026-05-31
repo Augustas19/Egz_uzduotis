@@ -6,6 +6,7 @@
 #include <sstream>
 #include <regex>
 
+
 using std::getline;
 using std::string;
 using std::map;
@@ -22,7 +23,7 @@ string vienod(string zodis){
     return rez;
 }
 
-set<string> domain(const string& failas){
+set<string> TLD(const string& failas){
     set<string> a;
     std::ifstream f(failas);
     if (!f){
@@ -63,14 +64,33 @@ void skt(map<string, int> daznis, map<string, set<int>> kur, set<string> url, se
     string eil;
     int eilsk=0;
 
-    regex url(R"(((https?:\/\/)?(www\.)?[A-Za-z0-9\-]+\.[A-Za-z]{2,}(\/[^\s]*)?))");
+    regex reurl(R"(((https?:\/\/)?(www\.)?[A-Za-z0-9\-]+\.[A-Za-z]{2,}(\/[^\s]*)?))");
 
     while (getline(F,eil)){
         eilsk++;
-        // url
-
-        //--
-
+        //url
+        std::sregex_iterator it(eil.begin(), eil.end(), reurl);
+        std::sregex_iterator end;
+        for(; it!=end; ++it){
+            string gal = it->str();
+            string domain = gal;
+            //https
+            if(domain.rfind("https://", 0)==0)
+                domain=domain.substr(8);
+            else if(domain.rfind("http://", 0)==0)
+                domain=domain.substr(7);
+            //www
+            if(domain.rfind("www.", 0)==0)
+                domain=domain.substr(4);
+            //path
+            size_t slashvieta = domain.find('/');
+            if(slashvieta != string::npos)
+                domain = domain.substr(0, slashvieta);
+            
+            if(valid(domain,visidom)){
+                url.insert(gal);
+            }
+        }
         // zodziai
         string zodis;
         std::stringstream s(eil);
@@ -83,16 +103,26 @@ void skt(map<string, int> daznis, map<string, set<int>> kur, set<string> url, se
             kur[zodis].insert(eilsk);
         }
     }
+    F.close();
+}
+void rasymasdazn(const map<string, int>& daznis){
+    std::ofstream r("zodziai1.txt");
+    for(const auto x : daznis){
+        if(x.second > 1){
+            r<<x.first<<" : "<<x.second<<"\n";
+        }
+    }
+}
+void rasymascross(const map<string, set<int>> kur){
     
 }
-
 int main(){
 
 map<string, int> daznis;
 map<string, set<int>> kur;
 set<string> url;
 
-set<string> visidom = domain("domain.txt");
+set<string> visidom = TLD("domain.txt");
 
 skt(daznis, kur, url, visidom);
 
