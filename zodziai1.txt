@@ -54,7 +54,6 @@ liepa : 2
 lietuvoje : 2
 lietuvos : 13
 lotynų : 2
-lt : 2
 m : 22
 metu : 2
 miestas : 5
@@ -131,11 +130,9 @@ vilniuje : 2
 vilnius : 11
 vilnių : 4
 vingio : 3
-vu : 2
 vyrauja : 2
 vyriška : 3
 vėliau : 2
-www : 2
 xv : 2
 yra : 14
 į : 12

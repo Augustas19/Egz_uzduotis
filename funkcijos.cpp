@@ -84,7 +84,8 @@ void skt(map<string, int>& daznis, map<string, set<int>>& kur, set<string>& url,
 
         // zodziai
         regex zodisRe(R"([A-Za-zĄČĘĖĮŠŲŪŽąčęėįšųūž]+)");
-        std::sregex_iterator it2(eil.begin(), eil.end(), zodisRe);
+        string beurl = std::regex_replace(eil, reurl, " ");
+        std::sregex_iterator it2(beurl.begin(), beurl.end(), zodisRe);
         std::sregex_iterator end2;
         for(; it2!=end2; ++it2){
             string zodis = it2->str();
