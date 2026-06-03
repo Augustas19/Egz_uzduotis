@@ -10,7 +10,8 @@
 
 Programa veikia ir su lietuviškomis raidėmis.
 
-![alt text](image.png)
+<img width="162" height="131" alt="image" src="https://github.com/user-attachments/assets/b24ed1b5-32f3-4587-8ad0-6178fcc37ee2" />
+
 
 
 ## Programos paleidimas
